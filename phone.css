@@ -170,8 +170,8 @@ div nav ul li:hover{
 }
 
 .photonicsPic{
-    width: 65vw;
-    height: auto;
+    width: 240px;
+    height: 175px;
     border: 1px solid white;
     border-radius: 40px;
     margin: 10px 5px;
@@ -193,8 +193,8 @@ div nav ul li:hover{
 
 }
 .microscopeImage{
-    width: 65vw;
-    height: auto;
+    width: 240px;
+    height: 175px;
     border: 1px solid white;
     border-radius: 40px;
     margin: 10px 0px; 
