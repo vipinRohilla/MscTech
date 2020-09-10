@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.photonicsSubjects{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid gray;
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: auto;
+    border-radius: 10px;
+}
+h2{
+    font-size: 2.3rem;
+    margin: 25px 0px;
+    text-align: center;
+    padding: 0px 0px;
+}
+.secondDiv{
+    
+    font-size: 1.2rem;
+    padding: 0px 50px;
+}
+
+.photonicsSyllabus{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin: 20px;
+    margin-top: 100px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    border-radius: 10px;
+
+}
+.syllabusSecondDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    margin: 10px;
+
+}
+.syllabusPhotonics{
+    font-size: 1.1rem;
+}
+.secondRowDiv{
+    display: flex;
+    justify-content: center;
+}
+.secondRowDiv embed{
+    height: 51rem;
+    width: 39rem;
+    /* margin: 70px 50px; */
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px 50px 0px;
+}
+footer{
+    border: 2px solid skyblue;
+    box-shadow: skyblue 10px 10px 20px 15px ;
+    height: 40px;
+    padding: 2px;
+    text-align: right;
+    color: white;
+    background-color: rgb(2, 177, 247);
+    font-size: 1.2rem;
+}
+.redNote{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.instrumentation-subjects{
+    color: blue;
+    font-size: 1.5rem;
+}
+.instrumentation-subjects:hover{
+    color: red;
+}
+.electronicsSubjectsImage{
+    width: 100%;
+    height: 100%;
+
+}

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+    font-family: 'Frank Ruhl Libre', serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.signInButton{
+    outline: none;
+
+}
+.signInButton:hover{
+    color: black;
+}
+strong{
+    float: left;
+    font-size: 0.7rem;
+    margin: 0px 10px;
+    margin-top: 3px;
+    letter-spacing: 3px;
+    color: rgba(21, 139, 248, 0.822);
+    text-shadow: skyblue 5px 5px 8px;
+}
+
+.aboutus{
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    padding: 0px 0px;
+    padding-left: 65px;
+    padding-top: 10px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.aboutus img{
+   
+    height: 90px;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.aboutus div p{
+    margin: 15px 0px;
+    margin-top: 10px;
+    /* padding: 0px 100px; */
+    padding-left: 30px;
+    font-size: 0.5rem;
+    word-spacing: 0px;
+    line-height: 10px;
+}
+header span{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 10px 0px;
+    color: rgba(21, 139, 248, 0.822);
+    text-shadow: skyblue 5px 5px 8px;
+
+}
+header input{
+    float: right;
+    border: none;
+    background: none;
+    font-size: 0.7rem;
+    margin-right: 5px;
+    margin-top: 3px;
+    color: blue;
+    cursor: pointer;
+}
+.blankArea{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background-color: rgb(0, 112, 218);
+}
+.blankArea p{
+    font-size: 0.6rem;
+    color: white;
+    margin: 2px 0px;
+    padding: 0px 10px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+nav{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: rgb(8, 161, 250);
+    height: 25px;
+    padding-top: 0px;
+}
+div nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 3px;
+    font-size: 0.7rem;
+    color: white;
+    
+
+}
+div nav ul li:hover{
+    color: black;
+
+}
+.courseinformation h1{
+    text-align: center;
+    padding: 20px 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+    
+
+
+.courseinformation{
+    padding: 10px 10px;
+    font-size: 0.5rem;
+    line-height: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.testsdetails{
+    padding: 5px 0px;
+    font-size: 0.5rem;
+    line-height: 10px;
+}
+.tests{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.tests h1{
+    text-align: center;
+    padding: 0px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.electronicsImage{
+    background: black;
+    display: flex;
+}
+.photonicsImage{
+    background: black;
+    display: flex;
+
+
+}
+
+.photonicsPic{
+    width: 65vw;
+    height: auto;
+}
+.electronicsImage img{
+    height: 175px;
+    width: 240px;
+    border-radius: 1px;
+    
+}
+.instrumentationImage{
+    background: black;
+    display: flex;
+
+}
+.microscopeImage{
+    width: 65vw;
+    height: auto;
+}
+.electronicsBlue{
+    color: rgb(148, 225, 255);
+    padding: 0px 10px;
+}
+.black{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 5px 0px;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.smallFonts{
+    padding-top: 10px;
+    font-size: 0.5rem;
+    line-height: 12px;
+    word-spacing: 1px;
+    color: rgb(182, 228, 248);
+    padding: 0px 10px
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    padding: 10px 10px;
+    /* float: left; */
+
+}
+.subscribe p{
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.email{
+    outline: none;
+    height: 12px;
+    width: 155px;
+    font-size: 0.5rem;
+    border-radius: 4px;
+}
+.subscribeButton{
+    height: 15px;
+    width: 55px;
+    margin-top: 10px;
+    font-size: 0.6rem;
+    border: 1px solid rgb(3, 66, 126);
+    border-radius: 5px;
+    background-color: rgb(5, 97, 201);
+    color: white;
+    letter-spacing: 0px;
+}
+.subscribeButton:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+footer{
+    border: 2px solid skyblue;
+    box-shadow: skyblue 10px 10px 20px 15px;
+    height: 15px;
+    padding: 0px;
+    text-align: right;
+    color: white;
+    background-color: rgb(2, 177, 247);
+    font-size: 0.4rem;
+}
